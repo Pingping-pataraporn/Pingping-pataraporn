@@ -1,0 +1,9 @@
+SET mystery number 5
+SENT "please enter guess number" to DISPLAY
+RECIEVE guess from keyboard
+IF guess > 10 THEN 
+SEND "too high" TO DISPLAY
+ELSE IF guess = number THEN
+SEND "well done"
+ELSE SEND "Bad luck"
+END IF
